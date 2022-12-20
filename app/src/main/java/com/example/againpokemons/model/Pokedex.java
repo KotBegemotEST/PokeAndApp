@@ -1,10 +1,14 @@
 package com.example.againpokemons.model;
 
 
+import java.util.List;
+
 public class Pokedex
 {
     public List<Pokemon> pokemon;
 
+    public Pokedex() {
+    }
 
     public Pokedex(List<Pokemon> pokemon) {
         this.pokemon = pokemon;
